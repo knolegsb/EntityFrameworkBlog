@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainClasses", "DomainClas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{81B7EB01-46DE-4627-A22D-EA9795DC0E7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog", "Blog\Blog.csproj", "{1F146D67-44E8-4E28-A705-A4694AC8E320}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFBlog", "Blog\EFBlog.csproj", "{1F146D67-44E8-4E28-A705-A4694AC8E320}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

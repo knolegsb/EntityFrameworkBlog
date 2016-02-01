@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainClasses", "DomainClasses\DomainClasses.csproj", "{259F923D-638A-497A-9BCB-9081C590BFA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{81B7EB01-46DE-4627-A22D-EA9795DC0E7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog", "Blog\Blog.csproj", "{1F146D67-44E8-4E28-A705-A4694AC8E320}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{259F923D-638A-497A-9BCB-9081C590BFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259F923D-638A-497A-9BCB-9081C590BFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259F923D-638A-497A-9BCB-9081C590BFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259F923D-638A-497A-9BCB-9081C590BFA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B7EB01-46DE-4627-A22D-EA9795DC0E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B7EB01-46DE-4627-A22D-EA9795DC0E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B7EB01-46DE-4627-A22D-EA9795DC0E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B7EB01-46DE-4627-A22D-EA9795DC0E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F146D67-44E8-4E28-A705-A4694AC8E320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F146D67-44E8-4E28-A705-A4694AC8E320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F146D67-44E8-4E28-A705-A4694AC8E320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F146D67-44E8-4E28-A705-A4694AC8E320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

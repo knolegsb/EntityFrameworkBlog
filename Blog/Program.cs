@@ -2,6 +2,7 @@
 using DomainClasses;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,8 +13,10 @@ namespace EFBlog
     {
         static void Main(string[] args)
         {
-            //CreateBlog();
-            //AddFirstPost();
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BlogContext>());
+
+            CreateBlog();
+            AddFirstPost();
             AddSecondPost();
 
         }
@@ -42,7 +45,7 @@ namespace EFBlog
         {
             using (var context = new BlogContext())
             {
-                context.Blogs.Add(new Blog { BloggerName = "Mannod", Title = "Code First Awesome" });
+                context.Blogs.Add(new Blog { BloggerName = "Mannod", Title = "Code First Awesome" , DateCreated = DateTime.Now });
                 context.SaveChanges();
 
             }

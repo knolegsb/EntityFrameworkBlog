@@ -15,9 +15,14 @@ namespace DomainClasses
         }
         [Key]
         public int Id { get; set; }
+
+        [StringLength(150, MinimumLength = 2)]
         public string Title { get; set; }
+
+        [Required]
         public string BloggerName { get; set; }
 
+        public DateTime DateCreated { get; set; }
         public List<Post> Posts { get; set; } // one to many
     }
 }

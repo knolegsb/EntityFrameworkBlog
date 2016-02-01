@@ -13,7 +13,8 @@ namespace EFBlog
     {
         static void Main(string[] args)
         {
-            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BlogContext>());
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BlogContext>());
+            Database.SetInitializer(new BlogDbInitializer());
 
             CreateBlog();
             AddFirstPost();

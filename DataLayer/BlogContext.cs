@@ -36,7 +36,7 @@ namespace DataLayer
                 new Blog { BloggerName = "Manori", Title="Second", DateCreated = DateTime.Now,
                     Posts = new List<Post>() {new Post { Title="Answer", Content="Right" } } }
             }.ForEach(b => context.Blogs.Add(b));
-            //context.SaveChanges();
+            context.SaveChanges();
         }
     }
 }

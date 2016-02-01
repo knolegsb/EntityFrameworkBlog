@@ -12,7 +12,30 @@ namespace EFBlog
     {
         static void Main(string[] args)
         {
-            CreateBlog();
+            //CreateBlog();
+            //AddFirstPost();
+            AddSecondPost();
+
+        }
+
+        private static void AddSecondPost()
+        {
+            using (var context = new BlogContext())
+            {
+                var blog = context.Blogs.Find(1);
+                blog.Posts.Add(new Post { Title = "Second Post", Content = "Nice to see you again." });
+                context.SaveChanges();
+            }
+        }
+
+        private static void AddFirstPost()
+        {
+            using (var context = new BlogContext())
+            {
+                var blog = context.Blogs.Find(1);
+                blog.Posts.Add(new Post { Title = "First Post", Content = "Hello, this is the first start." });
+                context.SaveChanges();
+            }
         }
 
         private static void CreateBlog()
